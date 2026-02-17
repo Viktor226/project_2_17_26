@@ -20,6 +20,6 @@ if st.button("Check Book"):
     st.write("you can add this book in database")
     if st.button("add book"):
       books.append(user_input)
-      st.write("book", user input,"has been added to database") 
+      st.write("book",user input,"has been added to database") 
       
     
