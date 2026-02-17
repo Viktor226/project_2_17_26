@@ -17,9 +17,6 @@ if st.button("Check Book"):
     st.success("The book exist in database!")
   else :
     st.error("The book is NOT in the database")
-    st.write("you can add this book in database")
-    if st.button("add book"):
-      books.append(user_input)
-      st.write("book",user_input,"has been added to database") 
+   
       
     
